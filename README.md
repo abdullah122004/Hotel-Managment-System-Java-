@@ -1,54 +1,39 @@
-# java_hotel_managment_system
-A complete Java-based Hotel Management System with Swing GUI and .txt file data storage for guest, room, reservation, and user management.
+# 🏨 Java Hotel Management System
 
-This is a fully functional Hotel Management System built in Java using Swing for the graphical user interface (GUI) and .txt files for data persistence. The system supports multiple modules such as:
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-User Login (Admin/User roles)
+## 📌 Project Overview
+A complete, fully functional **Hotel Management System** built in Java. This application utilizes **Java Swing** for a responsive Graphical User Interface (GUI) and relies on standard `.txt` files for data persistence, eliminating the need for an external database setup. 
 
-Room Management
+The system is designed with multiple modules to seamlessly handle core hotel operations, including guest management, room tracking, reservations, and secure user access.
 
-Guest Management
+---
 
-Reservation Handling
+## 🚀 Features
 
-File-based Data Storage (no external database required)
+*   **🔐 User Authentication:** Secure login system with role-based access control (Admin & User).
+*   **🛏️ Room Management:** Easily add, update, delete, and view the status of hotel rooms.
+*   **🧑‍🤝‍🧑 Guest Management:** Streamlined check-in and check-out processes for guests.
+*   **📅 Reservation Handling:** Create, view, and cancel room reservations effortlessly.
+*   **👥 User Accounts:** Exclusive admin privileges to manage staff and user accounts.
+*   **💾 Data Persistence:** Real-time data saving to local `.txt` files for instant retrieval.
+*   **🖥️ Interactive GUI:** A fully interactive and user-friendly interface built with Java Swing.
 
-🚀 Features
-Login authentication with role-based access (Admin/User)
+---
 
-Add, update, delete, and view hotel rooms
+## 🛠️ Technologies Used
 
-Check-in and check-out guests
+*   **Language:** Java
+*   **GUI Framework:** Java Swing
+*   **Data Storage:** File I/O (`.txt` files) for local persistence
+*   **Design Architecture:** Object-Oriented Programming (OOP) principles
 
-Make and cancel room reservations
+---
 
-Manage user accounts (admin only)
+## ✅ System Requirements
 
-Real-time data saving to .txt files
+*   **Java Development Kit (JDK):** Version 8 or higher installed on your system.
+*   **IDE:** Any standard Java IDE such as IntelliJ IDEA, Eclipse, or NetBeans.
+*   **Operating System:** Cross-platform compatibility (Windows, Linux, macOS).
 
-Fully interactive Swing-based GUI
-
-🛠️ Technologies Used
-Java (JDK 8 or higher)
-
-Java Swing (for GUI)
-
-File I/O (.txt files) for persistence
-
-Object-Oriented Programming (OOP) principles
-
-✅ System Requirements
-Java Development Kit (JDK) 8 or higher
-
-Any IDE like IntelliJ IDEA, Eclipse, or NetBeans
-
-Compatible with Windows, Linux, or macOS
-📌 How to Run
-Clone the repository
-git clone https://github.com/yourusername/java-hotel-management-system.git
-
-Open the project in your favorite Java IDE.
-
-Make sure rooms.txt, guests.txt, reservations.txt, and users.txt exist (empty is fine on first run).
-
-Run HotelManagementSystemGUI.java.
+---
